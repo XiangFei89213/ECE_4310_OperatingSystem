@@ -1,0 +1,1 @@
+cmd_/shared_folder/shared_folder/seminar_4/mod04_ioctrl.mod := printf '%s\n'   mod04_ioctrl.o | awk '!x[$$0]++ { print("/shared_folder/shared_folder/seminar_4/"$$0) }' > /shared_folder/shared_folder/seminar_4/mod04_ioctrl.mod

@@ -1,0 +1,1 @@
+cmd_/shared_folder/shared_folder/hw402_kernel_helloworld/test_mod02.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /shared_folder/shared_folder/hw402_kernel_helloworld/test_mod02.ko /shared_folder/shared_folder/hw402_kernel_helloworld/test_mod02.o /shared_folder/shared_folder/hw402_kernel_helloworld/test_mod02.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/shared_folder/shared_folder/hw401_kernel/test_mod01.mod := printf '%s\n'   test_mod01.o | awk '!x[$$0]++ { print("/shared_folder/shared_folder/hw401_kernel/"$$0) }' > /shared_folder/shared_folder/hw401_kernel/test_mod01.mod

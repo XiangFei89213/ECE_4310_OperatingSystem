@@ -1,0 +1,1 @@
+cmd_/shared_folder/shared_folder/hw402_kernel_helloworld/Module.symvers :=  scripts/mod/modpost -m -a     -o /shared_folder/shared_folder/hw402_kernel_helloworld/Module.symvers -T /shared_folder/shared_folder/hw402_kernel_helloworld/modules.order -i Module.symvers -e 

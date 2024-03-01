@@ -1,0 +1,1 @@
+/shared_folder/shared_folder/hw402_kernel_helloworld/test_mod02.o
